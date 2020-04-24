@@ -53,7 +53,9 @@ include '../aset/header.php';
 	  	  		
 			<td>
 	  			<a href="detail.php?id_odp=<?= $p['id_odp']; ?>" class="badge badge-success">Detail</a>
+	  			<a href="edit.php?id_odp=<?= $p['id_odp']; ?>" class="badge badge-warning">Edit</a>
 	  			<a href="hapus.php?id_odp=<?= $p['id_odp']; ?>" class="badge badge-danger">Hapus</a>
+	  		
 	  		</td>
 	  	</tr>
 	  	<?php
